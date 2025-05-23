@@ -1,0 +1,37 @@
+@import url(./normalize.css);
+
+/* remove default padding and margin */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header{
+  padding: calc(5px + 1vw);
+  position: sticky;
+  top: 0;
+}
+
+/* makes image responsive */
+header img{
+  max-inline-size: 100%;
+}
+
+ul[role="navigation"]{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+table{
+  width: 100%;
+}
+
+table tr td{
+  text-align: center;
+  padding: 5px;
+  border: 1px solid;
+}
