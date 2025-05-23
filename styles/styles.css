@@ -18,6 +18,10 @@
   --integer: 5px;
 }
 
+body{
+  min-height: 100vh;
+}
+
 header{
   padding: calc(5px + 1vw);
   background-color: var(--header-bg);
